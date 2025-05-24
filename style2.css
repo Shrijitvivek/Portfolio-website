@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+header{
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2.5rem ;
+    color:white;
+}
+.navigation a{
+    background-color: white;
+    color: black;
+    font-size: large;
+    margin-right: 100px;
+}
+.talk{
+    padding: 10px 20px;
+    font-size:medium;
+    color: aliceblue;
+    border-radius: 5px;
+    background-color:indigo;
+    border: 2px solid indigo;
+}
+.navigation a:hover{
+    color:blue
+}
+.talk:hover{
+    color:indigo;
+    background-color: white;
+    cursor: pointer;
+}
+.content{
+    color: antiquewhite;
+    padding: 50px 100px;
+}
+.h3{
+    color: beige;
+    font-size: x-large;
+    padding:  20px 0px;
+}
+.button{
+    padding: 100px 0px;
+    font-size: x-large;
+    display: flex;
+    gap: 50px;
+}
+a{
+    text-decoration:none;
+}
+.icons{
+    padding: 30px 20px;
+    font-size: xx-large;
+   display: flex;
+   gap: 50px;
+
+}
+.shri{
+    color:indigo
+}
+.h2{
+    font-size:xx-large;
+    color:whitesmoke;
+}
+.image img{
+width: 400px;
+margin-left: 1000px;
+position: absolute;
+top: 5%;
+right: 20%;
+}
+body{
+    background-color:black;
+}
+.home{
+position: relative;
+}
+.move a{
+font-size: 40px;
+margin-right: 50px;
+}
+.move{
+    margin-top: 0.5px;
+}

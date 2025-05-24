@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <center><h1>Please fill your Details</h1></center>
+  <meta charset="UTF-8">
+  <title>Contact Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color:white;
+      padding: 30px;
+    }
+
+    form {
+      background-color:white;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 500px;
+      margin: auto;
+
+    }
+
+    label {
+      font-weight: bold;
+      display: block;
+      margin-bottom: 5px;
+      margin-top: 15px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 3px solid gray;
+      border-radius: 6px;
+      font-size: 14px;
+      
+    }
+
+    input[type="radio"],
+    input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px;
+      background-color:black;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color:red;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+<form action="/submit-contact" method="post">
+  <label for="name">Full Name:</label>
+  <input type="text" id="name" name="fullname" placeholder="Your full name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+  <label>Gender:</label>
+  <input type="radio" id="male" name="gender" value="Male">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="Female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="Other">
+  <label for="other">Other</label>
+  <label>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    Subscribe to our newsletter
+  </label>
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+  <button type="submit">Send Message</button>
+</form>
+</body>
+</html>

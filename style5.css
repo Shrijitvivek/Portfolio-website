@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+.top{
+    display: flex;
+    font-size: small;
+   justify-content: center;
+   gap:40px;
+   background-color: whitesmoke;
+
+}
+.Lists li{
+    display: inline;
+    text-decoration: none;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.l1{
+border: 2px solid black;
+}
+.l2{
+    border: 2px solid red
+}
+.bodytext{
+    border: 2px solid black;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: x-large;
+}
+.bodytext2{
+    margin-left: 1000px;
+    font-size: larger;
+    background-color: gray;
+}
+.image img{
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 70px;
+    z-index: -1;
+}
+.text{
+    margin-left: 120px;
+   margin-top: 0px;
+}
