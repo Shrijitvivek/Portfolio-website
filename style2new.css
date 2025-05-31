@@ -45,7 +45,6 @@ html {
   
 }
 .h2{
-    color: whitesmoke;
     font-weight: 500;
     font-size: 40px;
 }
@@ -462,136 +461,24 @@ z-index: 1;
   color: darkgray;
 }
 
-@media only screen and (max-width: 425px) {
 
-  .main, .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    justify-content: space-around;
-  }
-  .sub{
-    font-size: 20px;
-  }
-
-  .navbar a {
-    margin-left: 0;
-    font-size: 20px;
-  }
-
-  .article {
-    padding-left: 20px;
-    padding-top: 100px;
-    text-align: center;
-  }
-
-  .h2 {
-    font-size: 28px;
-  }
-
-  .h3, .p {
-    font-size: 16px;
-    padding: 5px 10px;
-  }
-
-  .pic1 img {
-    position: static;
-    width: 180px;
-    height:auto;
-   display: block;
-   margin: 30px auto 0;
-    
-  }
-
-  .pic2 img {
-    position: relative;
-    right: 0;
-    bottom: 630px;
-    width: 180px;
-    height: auto;
-    display: block;
-    margin: 30px auto 0;
-  }
-
-
-  .abt2{
-    margin-bottom: 200px;
-  }
-
-  .about {
-    
-    padding-left: 20px;
-    padding-top: 50px;
-    font-size: 16px;
-  }
-
-  .shri {
-    font-size: 30px;
-    padding-left: 20px;
-    padding-top: 100px;
-    text-align: center;
-  }
-
-  .rob {
-    font-size: 14px;
-    text-align: center;
-  }
-
-  .contactbox,
-  .send {
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-  input[type="text"],
-  input[type="email"],
-  textarea {
-    margin-left: 0;
-    width: 90%;
-    padding: 15px;
-  }
-
-  .call i,
-  .mailpic i,
-  .loc i,
-  .mob,
-  .mail,
-  .locinfo {
-    position: static;
-    padding: 5px 0;
-    text-align: center;
-  }
-
-  .skills-table {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .column {
-    width: 90%;
-  }
-
-  .proj, .minor, .major {
-    font-size: 24px;
-    margin-top: 100px;
-    text-align: center;
-  }
-
-  .minorp,
-  .majorp {
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 16px;
-  }
-
-  .footer-content {
-    gap: 20px;
-    text-align: center;
-  }
-
-  .footer-nav {
-    flex-direction: column;
-    gap: 10px;
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  
+  .main,
+  .navbar{
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   }
 }
 
+.navbar a {
+  margin: 10px 0;
+  font-size: 14px;
+  background-color: lightblue;
+  color: black;
+  padding: 6px 12px;
+  border-radius: 6px;
+  transition: background-color 0.3s;
+}

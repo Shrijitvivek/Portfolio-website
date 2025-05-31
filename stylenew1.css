@@ -1,0 +1,86 @@
+/* Existing CSS remains unchanged */
+
+/* Add media query for mobile responsiveness */
+@media (max-width: 425px) {
+  .article {
+    padding-left: 10%;
+    padding-top: 150px;
+  }
+
+  .pic1 img {
+    position: static;
+    width: 150px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .about {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .skills-table {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .column {
+    width: 90%;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 80%;
+    margin: 20px auto;
+    display: block;
+    padding: 15px;
+  }
+
+  .send {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .main {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .proj, .minor, .major, .minorp, .majorp {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .shri {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .contactbox,
+  .mob,
+  .mail,
+  .locinfo,
+  .call i,
+  .mailpic i,
+  .loc i {
+    position: static;
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .pic2 img {
+    position: static;
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+  }
+}
