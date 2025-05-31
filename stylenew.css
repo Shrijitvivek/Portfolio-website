@@ -481,7 +481,7 @@ z-index: 1;
   .navbar a {
     margin-left: 0;
     font-size: 20px;
-    border:8px solid white;
+    border:5px solid white;
     border-radius: 5px;
     background-color: white;
     color: black;
