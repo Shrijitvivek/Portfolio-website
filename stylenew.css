@@ -480,11 +480,12 @@ z-index: 1;
 
   .navbar a {
     margin-left: 0;
-    font-size: 14px;
-    border:2px solid white;
+    font-size: 15px;
+    border:5px solid white;
     border-radius: 5px;
     background-color: white;
     color: black;
+    margin-right: 10px;
   }
 
   .article {
