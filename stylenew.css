@@ -463,15 +463,19 @@ z-index: 1;
 }
 
 @media only screen and (max-width: 425px) {
+  html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+  }
 
   .main, .navbar {
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 30px;
     justify-content: space-around;
   }
   .sub{
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .navbar a {
@@ -500,6 +504,7 @@ z-index: 1;
     height:auto;
    display: block;
    margin: 30px auto 0;
+   margin-bottom: 30px;
     
   }
 
@@ -542,24 +547,36 @@ z-index: 1;
     padding-left: 20px;
     padding-right: 20px;
   }
+  .contactbox{
+    padding-top: 10px;
+  }
 
   input[type="text"],
   input[type="email"],
   textarea {
+    margin-top: 40px;
     margin-left: 0;
     width: 90%;
     padding: 15px;
   }
 
-  .call i,
-  .mailpic i,
-  .loc i,
+  
   .mob,
   .mail,
   .locinfo {
     position: static;
-    padding: 5px 0;
-    text-align: center;
+   padding-left: 10px;
+  padding-top: 10px;
+   text-align: center;
+  }
+
+  .call i,
+  .mailpic i,
+  .loc i{
+
+    position: static;
+    padding-left: 160px;
+    padding-top: 20px;
   }
 
   .skills-table {
@@ -571,9 +588,9 @@ z-index: 1;
     width: 90%;
   }
 
-  .proj, .minor, .major {
+  .proj {
     font-size: 24px;
-    margin-top: 100px;
+    margin-top: 200px;
     text-align: center;
   }
 
