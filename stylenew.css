@@ -465,7 +465,7 @@ z-index: 1;
 @media only screen and (max-width: 425px) {
   html{
     scroll-behavior: smooth;
-    scroll-padding-top: 120px;
+    scroll-padding-top: 180px;
   }
 
   .main, .navbar {
@@ -481,6 +481,10 @@ z-index: 1;
   .navbar a {
     margin-left: 0;
     font-size: 20px;
+    border:8px solid white;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
   }
 
   .article {
